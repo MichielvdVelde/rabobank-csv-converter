@@ -1,6 +1,6 @@
 {
   "name": "rabobank-csv-converter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Michiel van der Velde <michiel@michielvdvelde.nl>",
   "homepage": "https://github.com/MichielvdVelde/rabobank-csv-converter",
   "license": "MIT",

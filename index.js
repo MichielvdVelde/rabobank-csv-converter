@@ -57,7 +57,7 @@ class BatchConverter extends Transform {
       currency: raw.currency || this._currency,
       amount: parseFloat(raw.amount),
       transaction_date: new Date(raw.date),
-      description: this._convertDescription(raw.desc1, raw.desc2, raw.desc3, raw.desc4, raw.desc5, raw.desc6),
+      description: this._convertDescription(raw.desc1.trim(), raw.desc2.trim(), raw.desc3.trim(), raw.desc4.trim(), raw.desc5.trim(), raw.desc6.trim()),
       interest_date: raw.interest_date ? new Date(raw.interest_date) : new Date(raw.date)
     }
 

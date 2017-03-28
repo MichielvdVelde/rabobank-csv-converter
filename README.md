@@ -75,6 +75,8 @@ Depending on the keys in the original row there may be more or fewer keys.
 
 ### Changelog
 
+* **v0.0.2** (28-03-2017)
+  * Trim individual description fields as well
 * **v0.0.1** (20-03-2017)
   * First published
 
